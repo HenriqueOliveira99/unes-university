@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="imagem/png" href="IMAGENS/logo.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Unes</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navegacao">
+        <div class="logo">
+          <img src="IMAGENS/logo.png" alt="" />
+        </div>
+        <div class="lista">
+          <ul>
+            <li class="lista-item">
+              <a href="#" class="lista-link">Início</a>
+            </li>
+            <li class="lista-item">
+              <a href="#" class="lista-link">Sobre nós</a>
+            </li>
+            <li class="lista-item">
+              <a href="#" class="lista-link"> Novidades</a>
+            </li>
+          </ul>
+        </div>
+        <div class="login-button">
+          <button><a href="#">Matricule-se</a></button>
+          <button><a href="#">Área do aluno</a></button>
+        </div>
+
+        <div class="icone-menu">
+          <button onclick="menuShow()">
+            <img class="icon" src="IMAGENS/menu_white_36dp.svg" alt="" />
+          </button>
+        </div>
+      </nav>
+      <div class="menu-mobile">
+        <ul>
+          <li class="lista-item"><a href="#" class="lista-link">Início</a></li>
+          <li class="lista-item">
+            <a href="#" class="lista-link">Projetos</a>
+          </li>
+          <li class="lista-item"><a href="#" class="lista-link">Sobre</a></li>
+        </ul>
+
+        <div class="login-button">
+          <button><a href="#">Entrar</a></button>
+          <button><a href="#">Cadastrar-se</a></button>
+        </div>
+      </div>
+    </header>
+    <!-- Área Container-->
+    <div id="container">
+      <div class="item1">
+        <aside class="menu">
+          <p class="menu-label">Cursos</p>
+          <ul class="menu-list">
+            <li><link rel="stylesheet" href="#" /><a>Presenciais</a></li>
+            <li><link rel="stylesheet" href="#" /><a>Técnico</a></li>
+            <li><link rel="stylesheet" href="#" /><a>Aprimoramento</a></li>
+            <li><link rel="stylesheet" href="#" /><a>Cursos Livres</a></li>
+            <li>
+              <link rel="stylesheet" href="#" /><a>Mestrado e Doutorado</a>
+            </li>
+          </ul>
+          <p class="menu-label">Processos Seletivos</p>
+          <ul class="menu-list">
+            <li><link rel="stylesheet" href="#" /><a>Graduação</a></li>
+            <li><link rel="stylesheet" href="#" /><a>Medicina</a></li>
+            <li><link rel="stylesheet" href="#" /><a>Pós-graduação</a></li>
+          </ul>
+          <p class="menu-label">Institucional</p>
+          <ul class="menu-list">
+            <li><link rel="stylesheet" href="#" /><a>Fale conosco</a></li>
+            <li><link rel="stylesheet" href="#" /><a>Transferências</a></li>
+            <li>
+              <link rel="stylesheet" href="#" /><a>Avaliação institucional</a>
+            </li>
+          </ul>
+        </aside>
+      </div>
+      <!-- Fim item 1-->
+      <div class="item2">
+        <img src="IMAGENS/capa.png" alt="" />
+        <h6>
+          Fundada em 1914 por imigrantes italianos, com a melhor qualidade de ensino, 100% aprovada pelo mec, conquiste seu futuro aqui!
+        </h6>
+      </div>
+      <!-- Fim item 2-->
+    </div>
+    <!-- Fim container-->
+
+    <footer class="footer">
+      <div class="caixa1">
+        <h3>Nos siga nas nossas redes sociais!</h3>
+        <div class="icons">
+          <a href="#" class="fb"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#" class="twitter"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+          <a href="https://www.instagram.com/henrique_oliveirarm/" class="insta"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+          <a href="#" class="git"><ion-icon name="logo-github"></ion-icon></a>
+          <a href="#" class="yt"><ion-icon name="logo-youtube"></ion-icon></a>
+        </div>
+        <!--Fim caixa1-->
+      </div>
+
+      <div class="caixa2">
+        <div class="info">
+          <h4>INFORMAÇÕES:</h4>
+          <div><a href="#">Política de privacidade</a><div>
+          <div><a href="#">Trabalhe conosco</a></div>
+          <div><a href="#">Ouvidoria</a></div>
+          <div><a href="#">Pesquisa e publicações</a></div>
+          <div><a href="#">Polos</a></div>
+        </div>
+      </div>
+      <!--Fim caixa2-->
+    </footer>
+  </body>
+</html>
